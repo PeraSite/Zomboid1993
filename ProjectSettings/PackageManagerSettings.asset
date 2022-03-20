@@ -31,13 +31,6 @@ MonoBehaviour:
     m_Scopes:
     - com.unity-atoms.unity-atoms-core
     - com.unity-atoms.unity-atoms-base-atoms
-    - com.unity-atoms.unity-atoms-fsm
-    - com.unity-atoms.unity-atoms-mobile
-    - com.unity-atoms.unity-atoms-mono-hooks
-    - com.unity-atoms.unity-atoms-tags
-    - com.unity-atoms.unity-atoms-scene-mgmt
-    - com.unity-atoms.unity-atoms-ui
-    - com.unity-atoms.unity-atoms-input-system
     m_IsDefault: 0
     m_Capabilities: 0
   m_UserSelectedRegistryName: NPM Registry
@@ -45,6 +38,6 @@ MonoBehaviour:
   m_RegistryInfoDraft:
     m_Modified: 0
     m_ErrorMessage: 
-    m_UserModificationsInstanceId: -824
-    m_OriginalInstanceId: -826
+    m_UserModificationsInstanceId: -844
+    m_OriginalInstanceId: -848
   m_LoadAssets: 0
