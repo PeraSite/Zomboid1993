@@ -15,9 +15,7 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects:
-    - {fileID: 11400000, guid: 7e615f8ff38b5fe4b861bda495eed737, type: 2}
-    - {fileID: 11400000, guid: 64a28a7287f163c44b5b9ccec5e533b2, type: 2}
+    ReferencedUnityObjects: []
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -61,40 +59,7 @@ MonoBehaviour:
         mscorlib
     - Name: 
       Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 4|GameOver, Zomboid1993.Runtime
-    - Name: GameOverEvent
-      Entry: 10
       Data: 0
-    - Name: overText
-      Entry: 1
-      Data: "\uC790\uC0B4\uC5D4\uB529 - \uD5C8\uBB34"
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 5|IntVariableOperateAction, Zomboid1993.Runtime
-    - Name: Variable
-      Entry: 10
-      Data: 1
-    - Name: Operation
-      Entry: 7
-      Data: OperationType, Zomboid1993.Runtime
-    - Name: Name
-      Entry: 1
-      Data: '-'
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Value
-      Entry: 3
-      Data: 100
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: 
       Entry: 13
       Data: 

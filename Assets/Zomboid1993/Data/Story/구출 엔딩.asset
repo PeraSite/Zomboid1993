@@ -33,7 +33,7 @@ MonoBehaviour:
       Data: 1|StorySelection, Zomboid1993.Runtime
     - Name: Button
       Entry: 1
-      Data: "\uD0C8\uCD9C\uD55C\uB2E4"
+      Data: "\uD0C8\uCD9C\uD55C\uB2E4."
     - Name: IsEnding
       Entry: 5
       Data: true
