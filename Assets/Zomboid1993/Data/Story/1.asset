@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aedba589c37d4b64978bc8040fdc0cfd, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 637dd5f5806a5144e9e9bd22cbdd8715, type: 2}
+    - {fileID: 11400000, guid: 94005b35847ec5e4d9b7db9d1c084cd3, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Options
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[StorySelection, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|StorySelection, Zomboid1993.Runtime
+    - Name: Button
+      Entry: 1
+      Data: "\uB2E4\uC74C"
+    - Name: IsEnding
+      Entry: 5
+      Data: false
+    - Name: Next
+      Entry: 10
+      Data: 0
+    - Name: Conditions
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[ISelectCondition, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Actions
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[ISelectAction, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 4|IntVariableOperateAction, Zomboid1993.Runtime
+    - Name: Variable
+      Entry: 10
+      Data: 1
+    - Name: Operation
+      Entry: 7
+      Data: OperationType, Zomboid1993.Runtime
+    - Name: Name
+      Entry: 1
+      Data: '-'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  ID: 1
+  Description: "\"1993\uB144 7\uC6D4 27\uC77C, \uC624\uD6C4 11\uC2DC 32\uBD84\n \n\uC815\uBD80\uB85C\uBD80\uD130
+    \uB179\uC2A4 \uBD09\uC1C4\uB839\uC774 \uB5A8\uC5B4\uC9C4 \uC9C0, 3\uC8FC\uB098
+    \uC9C0\uB0AC\uB2E4.\n\uC804\uAE30\uC640 \uC218\uB3C4\uB294 \uC9C4\uC791\uC5D0
+    \uB04A\uACBC\uB2E4.\n\uAC70\uB9AC\uC5D0\uB294 \uC880\uBE44\uB4E4\uC774 \uC140
+    \uC218 \uC5C6\uC774 \uB098\uB3CC\uC544\uB2E4\uB2CC\uB2E4.\n\uAD70\uC758 \uBBFC\uAC04\uC778
+    \uAD6C\uC870 \uC791\uC5C5\uC740 \uC9C4\uD589\uB418\uACE0 \uC788\uAE30\uB098 \uD55C\uAC78\uAE4C?\n\uC774\uC820
+    \uADF8 \uBB34\uC5C7\uB3C4 \uBBFF\uC744 \uC218 \uC5C6\uB2E4.\"\r"

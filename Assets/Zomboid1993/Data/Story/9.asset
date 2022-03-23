@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aedba589c37d4b64978bc8040fdc0cfd, type: 3}
+  m_Name: 9
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 643159fff5d8e4c42b219808eb3d57a5, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Options
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[StorySelection, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|StorySelection, Zomboid1993.Runtime
+    - Name: Button
+      Entry: 1
+      Data: "\uB2E4\uC74C"
+    - Name: IsEnding
+      Entry: 5
+      Data: false
+    - Name: Next
+      Entry: 10
+      Data: 0
+    - Name: Conditions
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[ISelectCondition, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Actions
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[ISelectAction, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  ID: 9
+  Description: "\uBC30\uB3C4 \uCC44\uC6E0\uACA0\uB2E4.\n\uC18C\uD30C\uC5D0 \uAE30\uB304
+    \uCC44 \uD734\uC2DD\uC744 \uCDE8\uD574\uBCF8\uB2E4.\n\uC138\uC0C1\uC774 \uB300\uCCB4
+    \uC5B4\uB5BB\uAC8C \uB3CC\uC544\uAC00\uACE0 \uC788\uB294\uAC78\uAE4C.\n\uB179\uC2A4
+    \uC0AC\uD0DC\uB97C \uCDE8\uC7AC\uD558\uAE30 \uC704\uD574 \uC774 \uB3C4\uC2DC\uB85C
+    \uC628 \uB098\uB294\n\uAC11\uC791\uC2A4\uB7EC\uC6B4 \uC815\uBD80\uC758 \uB3C4\uC2DC\uBD09\uC1C4\uB839\uACFC
+    \uAD70\uC758 \uAC1C\uC785\uC73C\uB85C \uAF3C\uC9DD\uC5C6\uC774\n\uAC07\uD788\uAC8C
+    \uB418\uC5C8\uB2E4.\n3\uC8FC\uC9F8 \uAD6C\uC870\uB418\uC9C0 \uC54A\uC558\uACE0
+    \uAD6C\uC870 \uC62C \uC0DD\uAC01\uB3C4 \uC5C6\uC5B4\uBCF4\uC778\uB2E4.\n\uCE74\uBA54\uB77C
+    \uBC30\uD130\uB9AC\uB3C4 \uB2E4 \uB3FC\uC11C \uB179\uD654\uB294 \uC81C\uB300\uB85C
+    \uB41C\uAC74\uC9C0 \uC758\uBB38\uC774\uB2E4.\n\uB098\uB97C \uC704\uD574 \uD76C\uC0DD\uD55C
+    \uD504\uB7AD\uD06C\uC758 \uBAA8\uC2B5\uC774 \uB5A0\uC624\uB978\uB2E4.\n\uC81C\uAE38,
+    \uBAB8\uC774 \uD3B8\uD574\uC9C0\uB2C8 \uB9C8\uC74C\uC774 \uBD88\uD3B8\uD574\uC9C0\uB294\uAD70."

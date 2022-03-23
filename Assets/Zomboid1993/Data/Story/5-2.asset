@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aedba589c37d4b64978bc8040fdc0cfd, type: 3}
+  m_Name: 5-2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 43e47240cd1435048bbeef6dfe514c38, type: 2}
+    - {fileID: 11400000, guid: ac5025ec0580dfa4690d95ecd2848bf1, type: 2}
+    - {fileID: 11400000, guid: 75531526665b65942928e4869903fe99, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Options
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[StorySelection, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|StorySelection, Zomboid1993.Runtime
+    - Name: Button
+      Entry: 1
+      Data: "\uB4A4\uC838\uBCF8\uB2E4"
+    - Name: IsEnding
+      Entry: 5
+      Data: false
+    - Name: Next
+      Entry: 10
+      Data: 0
+    - Name: Conditions
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[ISelectCondition, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Actions
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[ISelectAction, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 4|SetBoolVariableAction, Zomboid1993.Runtime
+    - Name: Variable
+      Entry: 10
+      Data: 1
+    - Name: Value
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|StorySelection, Zomboid1993.Runtime
+    - Name: Button
+      Entry: 1
+      Data: "\uC9C0\uB098\uAC04\uB2E4"
+    - Name: IsEnding
+      Entry: 5
+      Data: false
+    - Name: Next
+      Entry: 10
+      Data: 2
+    - Name: Conditions
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[ISelectCondition, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Actions
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[ISelectAction, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  ID: 5-2
+  Description: "\uADF8\uB798, \uC9C0\uAE08 \uC274 \uD2C8\uC774 \uC5B4\uB528\uACA0\uC5B4.
+    \uB2F9\uC7A5\uC5D0 \uBB3C\uD488\uC744 \uD655\uBCF4\uD558\uB294 \uAC83\uC774 \uB354
+    \uC911\uC694\uD558\uB2E4. \uC7A0\uAE50, \uC18C\uD30C \uBC11\uC5D0 \uBB34\uC5B8\uAC00\uAC00
+    \uBCF4\uC778\uB2E4."

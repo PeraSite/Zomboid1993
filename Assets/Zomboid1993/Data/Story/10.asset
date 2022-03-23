@@ -1,0 +1,280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aedba589c37d4b64978bc8040fdc0cfd, type: 3}
+  m_Name: 10
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: ab36c1a31652ee441bbf8d76d6d7d083, type: 2}
+    - {fileID: 11400000, guid: 64a28a7287f163c44b5b9ccec5e533b2, type: 2}
+    - {fileID: 11400000, guid: 6406ab6e06305fd4489ce8cd899f250b, type: 2}
+    - {fileID: 11400000, guid: 94005b35847ec5e4d9b7db9d1c084cd3, type: 2}
+    - {fileID: 11400000, guid: d6b5ca501dccef84c9a9892dfd0acdf3, type: 2}
+    - {fileID: 11400000, guid: ac5025ec0580dfa4690d95ecd2848bf1, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Options
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[StorySelection, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 1|StorySelection, Zomboid1993.Runtime
+    - Name: Button
+      Entry: 1
+      Data: "\uC880\uBE44\uC5D0\uAC8C \uCD1D\uC744 \uC3DC\uB2E4."
+    - Name: IsEnding
+      Entry: 5
+      Data: false
+    - Name: Next
+      Entry: 10
+      Data: 0
+    - Name: Conditions
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[ISelectCondition, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Actions
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[ISelectAction, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 4|IntVariableOperateAction, Zomboid1993.Runtime
+    - Name: Variable
+      Entry: 10
+      Data: 1
+    - Name: Operation
+      Entry: 7
+      Data: OperationType, Zomboid1993.Runtime
+    - Name: Name
+      Entry: 1
+      Data: +
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 3
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|SetBoolVariableAction, Zomboid1993.Runtime
+    - Name: Variable
+      Entry: 10
+      Data: 2
+    - Name: Value
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|StorySelection, Zomboid1993.Runtime
+    - Name: Button
+      Entry: 1
+      Data: "\uBCF5\uB3C4 \uB05D\uC73C\uB85C \uB3C4\uB9DD\uAC04\uB2E4."
+    - Name: IsEnding
+      Entry: 5
+      Data: false
+    - Name: Next
+      Entry: 10
+      Data: 0
+    - Name: Conditions
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[ISelectCondition, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Actions
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[ISelectAction, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 9|IntVariableOperateAction, Zomboid1993.Runtime
+    - Name: Variable
+      Entry: 10
+      Data: 1
+    - Name: Operation
+      Entry: 7
+      Data: OperationType, Zomboid1993.Runtime
+    - Name: Name
+      Entry: 1
+      Data: '-'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 3
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|StorySelection, Zomboid1993.Runtime
+    - Name: Button
+      Entry: 1
+      Data: "\uC1E0\uD30C\uC774\uD504\uB85C \uB0B4\uB824\uCE5C\uB2E4."
+    - Name: IsEnding
+      Entry: 5
+      Data: false
+    - Name: Next
+      Entry: 10
+      Data: 0
+    - Name: Conditions
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[ISelectCondition, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Actions
+      Entry: 7
+      Data: 12|System.Collections.Generic.List`1[[ISelectAction, Zomboid1993.Runtime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 13|IntVariableOperateAction, Zomboid1993.Runtime
+    - Name: Variable
+      Entry: 10
+      Data: 3
+    - Name: Operation
+      Entry: 7
+      Data: OperationType, Zomboid1993.Runtime
+    - Name: Name
+      Entry: 1
+      Data: '-'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 3
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|IntVariableOperateAction, Zomboid1993.Runtime
+    - Name: Variable
+      Entry: 10
+      Data: 4
+    - Name: Operation
+      Entry: 7
+      Data: OperationType, Zomboid1993.Runtime
+    - Name: Name
+      Entry: 1
+      Data: '-'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Value
+      Entry: 3
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|SetBoolVariableAction, Zomboid1993.Runtime
+    - Name: Variable
+      Entry: 10
+      Data: 5
+    - Name: Value
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  ID: 10
+  Description: "\uC7A0\uAE50, \uBC29 \uBC16\uC5D0\uC11C \uADF8 \uB188\uB4E4\uC758
+    \uC18C\uB9AC\uAC00 \uB4E4\uB9B0\uB2E4.\r\n\uB4F1\uACE8\uC774 \uC624\uC2F9\uD574\uC9C4\uB2E4.\r\n\uC870\uC2EC\uD788
+    \uBC29 \uBB38 \uBC16\uC73C\uB85C \uB098\uC624\uC790 \uBBF8\uCC98 \uBC1C\uACAC\uD558\uC9C0
+    \uBABB\uD55C \uC880\uBE44\uB4E4\uC774\r\n\uC6B8\uBD80\uC9D6\uC73C\uBA70 \uB098\uC5D0\uAC8C
+    \uB2E4\uAC00\uC628\uB2E4.\r\n\uC774\uB7F0, \uC624\uB298 \uBC24\uC5D4 \uC7A0 \uC880
+    \uC790\uB098 \uC2F6\uC5C8\uB354\uB2C8\uB9CC.\r"
