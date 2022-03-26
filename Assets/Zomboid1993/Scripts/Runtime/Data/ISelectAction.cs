@@ -1,3 +1,4 @@
-public interface ISelectAction {
+public interface ISelectAction 
+{
 	public void Execute();
 }
