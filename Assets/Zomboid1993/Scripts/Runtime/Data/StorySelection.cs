@@ -9,7 +9,7 @@ public class StorySelection {
 	public bool IsEnding;
 
 	[HideIf("@IsEnding")]
-	[InlineButton("CreateNewStoryData", "New")]
+	[InlineButton("CreateNewStoryData", "New", ShowIf = "@Next == null")]
 	public StoryData Next;
 
 	[HideReferenceObjectPicker]
