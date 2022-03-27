@@ -29,10 +29,17 @@ public class IngameUI : SerializedMonoBehaviour {
 	[LabelText("자원 게이지 목록")]
 	public Dictionary<StatType, Image> StatGauge = new();
 
-
 	[Header("이벤트")]
 	public StringEvent OnNextStoryEvent;
 
+	public IntEvent HealthChangedEvent;
+	public IntEvent HungerChangedEvent;
+	public IntEvent MoneyChangedEvent;
+	public IntEvent DurabilityChangedEvent;
+
+	public BoolEvent HurtChangedEvent;
+	public BoolEvent HasGunChangedEvent;
+	public BoolEvent InjuryChangedEvent;
 
 	[Header("데이터")]
 	public StoryDatabase StoryDatabase;
@@ -56,7 +63,12 @@ public class IngameUI : SerializedMonoBehaviour {
 	}
 
 	private void RefreshUI(StoryData data) {
-		//TODO: 삽화 설정
+		if (data.Illustrate.SafeIsUnityNull()) {
+			Illustrate.gameObject.SetActive(false);
+		} else {
+			Illustrate.gameObject.SetActive(true);
+			Illustrate.sprite = data.Illustrate;
+		}
 		Description.text = data.Description;
 		foreach (var selectButton in Buttons) {
 			Destroy(selectButton.gameObject);

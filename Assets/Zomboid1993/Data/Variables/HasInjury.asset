@@ -15,7 +15,7 @@ MonoBehaviour:
   _developerDescription: "\uBD80\uC0C1\n"
   _id: 
   _value: 0
-  _changed: {fileID: 0}
+  _changed: {fileID: 11400000, guid: dc8a0f669fa958e4f85e9cdd13851319, type: 2}
   _changedWithHistory: {fileID: 0}
   _triggerChangedOnOnEnable: 0
   _triggerChangedWithHistoryOnOnEnable: 0

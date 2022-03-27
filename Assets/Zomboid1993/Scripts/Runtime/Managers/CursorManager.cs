@@ -12,14 +12,20 @@ public class CursorManager : MonoBehaviour {
 	}
 
 	private void UpdateCursor() {
-		var cursorImage = Input.GetMouseButton(0)
-			? ClickedCursorImage
-			: DefaultCursorImage;
+		if (Input.GetMouseButtonDown(0)) {
+			Cursor.SetCursor(
+				ClickedCursorImage,
+				Hotspot,
+				CursorMode.Auto
+			);
+		}
 
-		Cursor.SetCursor(
-			cursorImage,
-			Hotspot,
-			CursorMode.Auto
-		);
+		if (Input.GetMouseButtonUp(0)) {
+			Cursor.SetCursor(
+				DefaultCursorImage,
+				Hotspot,
+				CursorMode.Auto
+			);
+		}
 	}
 }

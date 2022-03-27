@@ -8,6 +8,9 @@ public class StoryData : SerializedScriptableObject {
 	[TextArea(5, 15)]
 	public string Description;
 
+	[PreviewField(100)]
+	public Sprite Illustrate;
+
 	[HideReferenceObjectPicker]
 	[ListDrawerSettings(CustomAddFunction = nameof(AddOption))]
 	public List<StorySelection> Options = new();
