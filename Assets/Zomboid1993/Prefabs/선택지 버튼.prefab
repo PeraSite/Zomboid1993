@@ -110,6 +110,7 @@ MonoBehaviour:
   Text: {fileID: 8617911675670566639}
   Button: {fileID: 3343781774100819205}
   NextStoryEvent: {fileID: 11400000, guid: 62f03471b36a16646b51442c313a879b, type: 2}
+  EndingEvent: {fileID: 11400000, guid: b5306bca09c7e01429a404e2de94c9f9, type: 2}
 --- !u!114 &3343781774100819205
 MonoBehaviour:
   m_ObjectHideFlags: 0

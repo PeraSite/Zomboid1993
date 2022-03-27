@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using DG.Tweening;
 using Sirenix.OdinInspector;
 using Sirenix.Utilities;
 using TMPro;
@@ -29,20 +30,25 @@ public class IngameUI : SerializedMonoBehaviour {
 	[LabelText("자원 게이지 목록")]
 	public Dictionary<StatType, Image> StatGauge = new();
 
+	public GameObject HurtImage;
+	public GameObject InjuryImage;
+	public CanvasGroup BloodImage;
+
 	[Header("이벤트")]
 	public StringEvent OnNextStoryEvent;
 
 	public IntEvent HealthChangedEvent;
-	public IntEvent HungerChangedEvent;
+	public IntEvent MentalChangedEvent;
 	public IntEvent MoneyChangedEvent;
-	public IntEvent DurabilityChangedEvent;
+	public IntEvent WeaponChangedEvent;
 
 	public BoolEvent HurtChangedEvent;
-	public BoolEvent HasGunChangedEvent;
 	public BoolEvent InjuryChangedEvent;
 
 	[Header("데이터")]
 	public StoryDatabase StoryDatabase;
+
+	public List<Sprite> PlayerPortraitSprites;
 
 	private List<SelectButton> Buttons = new();
 
@@ -50,6 +56,19 @@ public class IngameUI : SerializedMonoBehaviour {
 		OnNextStoryEvent.Register(OnNextStory);
 
 		OnNextStoryEvent.Raise("1");
+
+		HealthChangedEvent.Register(value => SetStatGauge(StatType.HEALTH, value / 100f));
+		MentalChangedEvent.Register(value => SetStatGauge(StatType.MENTAL, value / 100f));
+		MoneyChangedEvent.Register(value => SetStatGauge(StatType.MONEY, value / 100f));
+		WeaponChangedEvent.Register(value => SetStatGauge(StatType.WEAPON, value / 100f));
+
+		HurtChangedEvent.Register(value => {
+			HurtImage.SetActive(value);
+			BloodImage.alpha = value ? 1f : 0f;
+			if (!Portrait.SafeIsUnityNull())
+				Portrait.sprite = PlayerPortraitSprites[value ? 1 : 0];
+		});
+		InjuryChangedEvent.Register(value => InjuryImage.SetActive(value));
 	}
 
 	private void OnDisable() {
@@ -84,7 +103,8 @@ public class IngameUI : SerializedMonoBehaviour {
 	}
 
 	public void SetStatGauge(StatType Type, float percent) {
-		StatGauge[Type].fillAmount = percent;
+		if (!StatGauge[Type].SafeIsUnityNull())
+			StatGauge[Type].fillAmount = percent * 0.5f + 0.4f;
 	}
 
 
@@ -94,7 +114,7 @@ public class IngameUI : SerializedMonoBehaviour {
 
 public enum StatType {
 	HEALTH,
-	HUNGER,
+	MENTAL,
 	MONEY,
 	WEAPON
 }

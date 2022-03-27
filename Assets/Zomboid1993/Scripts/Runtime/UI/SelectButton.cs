@@ -7,6 +7,7 @@ public class SelectButton : MonoBehaviour {
 	public TextMeshProUGUI Text;
 	public Button Button;
 	public StringEvent NextStoryEvent;
+	public VoidEvent EndingEvent;
 
 	private StorySelection _selection;
 
@@ -23,6 +24,11 @@ public class SelectButton : MonoBehaviour {
 
 	private void OnClick() {
 		_selection.ExecuteActions();
-		NextStoryEvent.Raise(_selection.Next.ID);
+
+		if (_selection.IsEnding) {
+			EndingEvent.Raise();
+		} else {
+			NextStoryEvent.Raise(_selection.Next.ID);
+		}
 	}
 }
